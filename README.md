@@ -1,4 +1,4 @@
-# New_Repo_IT_360_Project
+# The Blind Artitech Project
 
 ## Team Members
 - Caleb Meister
