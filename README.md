@@ -38,7 +38,7 @@ Our project will be a malware traffic investigation tool designed to analyze net
 
 ### Expected Results / Deliverables
 - A working malware traffic analysis tool that:
-		- Parses network traffic.
-		- Flags suspicious IPs, domains, ports, DNS, and HTTP behavior.
-		- Uses AI to assist with detection and summarization.
-		- Produces a clear, concise investigation report.
+	- Parses network traffic.
+	- Flags suspicious IPs, domains, ports, DNS, and HTTP behavior.
+	- Uses AI to assist with detection and summarization.
+	- Produces a clear, concise investigation report.
