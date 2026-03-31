@@ -1,4 +1,4 @@
- # The Blind Artitech Project
+ # The Blind Architects Project
 
 ## Team Members
 - Caleb Meister
