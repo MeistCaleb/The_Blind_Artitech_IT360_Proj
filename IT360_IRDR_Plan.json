@@ -1,0 +1,282 @@
+{
+  "org_name": "ThreeBlindArchitects",
+  "industry": "Technology",
+  "critical_systems": [
+    "Web servers",
+    "Local Maintenance Machines",
+    "Network infrastructure",
+    "Storage"
+  ],
+  "team": [
+    {
+      "name": "Nathan Sigulas",
+      "role": "Analyst",
+      "phone": "4561238529",
+      "email": "nnsigul@ilstu.edu"
+    },
+    {
+      "name": "Caleb Meister",
+      "role": "Analyst",
+      "phone": "7586354521",
+      "email": "cmeister@ilstu.edu"
+    },
+    {
+      "name": "Campbell Russo",
+      "role": "Analyst",
+      "phone": "7451234562",
+      "email": "crusso@ilstu.edu"
+    }
+  ],
+  "ir_stages": [
+    {
+      "name": "Preparation",
+      "description": "Establish a plan of action in the event of a DDoS attack on the company network.",
+      "checklist": [
+        {
+          "text": "Develop and document incident response procedures",
+          "completed": false
+        },
+        {
+          "text": "Establish incident response team structure",
+          "completed": false
+        },
+        {
+          "text": "Implement security monitoring and alerting",
+          "completed": false
+        },
+        {
+          "text": "Deploy antivirus and malware protection",
+          "completed": false
+        },
+        {
+          "text": "Conduct incident response training and drills (tabletop/Red vs Blue)",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "name": "Detection & Analysis",
+      "description": "Detect, analyze, and determine the scope of an incident. Active EOC Monitoring of the situation.",
+      "checklist": [
+        {
+          "text": "Monitor security alerts and logs",
+          "completed": false
+        },
+        {
+          "text": "Investigate suspicious activities",
+          "completed": false
+        },
+        {
+          "text": "Determine incident type and severity",
+          "completed": false
+        },
+        {
+          "text": "Document initial findings",
+          "completed": false
+        },
+        {
+          "text": "Activate incident response team",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "name": "Containment",
+      "description": "Stop the attack and limit its scope and impact. Isolate ports and services quarantining the network. Collection of evidence for post attack.",
+      "checklist": [
+        {
+          "text": "Isolate affected systems from network",
+          "completed": false
+        },
+        {
+          "text": "Disable compromised accounts",
+          "completed": false
+        },
+        {
+          "text": "Block malicious IP addresses and domains",
+          "completed": false
+        },
+        {
+          "text": "Preserve evidence for forensics",
+          "completed": false
+        },
+        {
+          "text": "Prevent further lateral movement",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "name": "Eradication",
+      "description": "Remove the threat and restore systems to a known good state. Back up statuses and locations.",
+      "checklist": [
+        {
+          "text": "Remove malware and backdoors",
+          "completed": false
+        },
+        {
+          "text": "Patch vulnerabilities that were exploited",
+          "completed": false
+        },
+        {
+          "text": "Change compromised credentials",
+          "completed": false
+        },
+        {
+          "text": "Rebuild systems from clean media if necessary",
+          "completed": false
+        },
+        {
+          "text": "Verify threat removal before restoration",
+          "completed": false
+        },
+        {
+          "text": "Establish rules to prevent excessive packet transmission. Snort rule refinement.",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "name": "Recovery",
+      "description": "Restore systems to normal operations and verify they function correctly.",
+      "checklist": [
+        {
+          "text": "Restore data from clean backups if neccessary",
+          "completed": false
+        },
+        {
+          "text": "Restore systems to production",
+          "completed": false
+        },
+        {
+          "text": "Monitor systems closely for recurrence",
+          "completed": false
+        },
+        {
+          "text": "Communicate recovery status to stakeholders",
+          "completed": false
+        },
+        {
+          "text": "Document final incident status",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "dr_stages": [
+    {
+      "name": "Prevention",
+      "description": "Implement preventive measures to avoid disasters.",
+      "checklist": [
+        {
+          "text": "Identify critical systems and data",
+          "completed": false
+        },
+        {
+          "text": "Implement redundant systems and backups",
+          "completed": false
+        },
+        {
+          "text": "Deploy failover infrastructure",
+          "completed": false
+        },
+        {
+          "text": "Test backup and recovery procedures regularly",
+          "completed": false
+        },
+        {
+          "text": "Document all critical system dependencies",
+          "completed": false
+        },
+        {
+          "text": "Verify back up status and locations",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "name": "Detection",
+      "description": "Detect when a disaster has occurred. Active IDS/IPS.",
+      "checklist": [
+        {
+          "text": "Monitor system availability and performance",
+          "completed": false
+        },
+        {
+          "text": "Establish alerting for critical service failures",
+          "completed": false
+        },
+        {
+          "text": "Document incident occurrence time",
+          "completed": false
+        },
+        {
+          "text": "Assess disaster impact and scope",
+          "completed": false
+        },
+        {
+          "text": "Activate disaster recovery team",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "name": "Recovery",
+      "description": "Restore systems and services to operational status.",
+      "checklist": [
+        {
+          "text": "Activate failover systems and backups",
+          "completed": false
+        },
+        {
+          "text": "Verify data integrity after recovery",
+          "completed": false
+        },
+        {
+          "text": "Restore service to users",
+          "completed": false
+        },
+        {
+          "text": "Monitor recovered systems for stability",
+          "completed": false
+        },
+        {
+          "text": "Document recovery time and RTO/RPO achievement",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "name": "Post-Recovery",
+      "description": "Restore full operations and improve resilience. Verification of rule sets for IDS/IPS and blocked IP addresses.",
+      "checklist": [
+        {
+          "text": "Synchronize recovered systems with primary",
+          "completed": false
+        },
+        {
+          "text": "Return to normal operations",
+          "completed": false
+        },
+        {
+          "text": "Review disaster response effectiveness",
+          "completed": false
+        },
+        {
+          "text": "Update disaster recovery procedures",
+          "completed": false
+        },
+        {
+          "text": "Communicate lessons learned to team",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "rto": "2 hours",
+  "rpo": "24 hours",
+  "ai_scenarios": {
+    "tabletop": "## Table‑top Exercise Scenario  \n**ThreeBlindArchitects – Cyber‑Incident Response Exercise**\n\n---\n\n### 1. Scenario Title  \n**“The Silent Surge: A Ransomware Campaign Unfolds in the Infrastructure Core”**\n\n---\n\n### 2. Background  \n\n| Element | Details |\n|---------|---------|\n| **Organization** | **ThreeBlindArchitects** – a mid‑size technology consultancy (≈ 350 employees) that designs, builds, and maintains custom software solutions for Fortune‑500 clients. |\n| **Critical Systems** | • **Web Servers** – public‑facing services (CMS, API gateway, support portal).  <br>• **Local Maintenance Machines** – internal dev‑test servers, build agents, and a dedicated “maintenance” workstation used for firmware updates and network diagnostics.  <br>• **Network Infrastructure** – core routers, Layer‑3 switches, enterprise firewalls, and SD‑WAN endpoints.  <br>• **Storage** – shared SAN (10 TB) containing code repositories, databases, and backup media. |\n| **Threat Landscape** | • Advanced persistent threat (APT) activity targeting tech firms.  <br>• Supply‑chain attacks via third‑party firmware and software bundles.  <br>• Increasing use of ransomware‑as‑a‑service platforms.  <br>• Phishing campaigns leveraging “trusted vendor” domains. |\n| **Current Security Posture** | • Perimeter firewalls with IDS/IPS.  <br>• Network segmentation: DMZ, internal network, and isolated maintenance VLAN.  <br>• Endpoint protection on all servers.  <br>• 30‑day backup window, nightly full snapshot to off‑site storage.  <br>• No formal ransomware‑response playbook documented. |\n\n---\n\n### 3. Inject Timeline (5 Injects)\n\n| Inject # | Time | Event & Description | Information Provided to Participants | Expected Actions / Questions |\n|----------|------|---------------------|--------------------------------------|------------------------------|\n| **Inject 1** | **08:00** | **Unusual Web Traffic Spike** – External monitoring reports a 250 % surge in HTTP requests, many of which contain malformed URLs (e.g., `/../../etc/passwd`). The web servers log a high rate of 404 errors. | • Web server logs (last 30 min).  <br>• Firewall alert: “High HTTP request rate from IP 203.0.113.45”.  <br>• Incident response team receives notification. | • Verify if traffic is legitimate (e.g., DDoS).  <br>• Is the anomaly tied to a known campaign?  <br>• Should we block the source IP or throttle traffic? |\n| **Inject 2** | **10:00** | **Compromised Maintenance Machine** – Security Operations Center (SOC) receives an alert: the local maintenance workstation (MAC 00:1A:2B:3C:4D:5E) is attempting outbound HTTPS traffic to a new domain (`malware-update.example.com`). | • Process list and network connection details from the machine.  <br>• External DNS record for `malware-update.example.com` (IP 198.51.100.23).  <br>• Email from internal vendor support stating “Please update firmware to version 5.2.3”. | • Is the maintenance machine compromised or is the vendor communication legitimate?  <br>• Should we isolate the device immediately?  <br>• How does this impact the network? |\n| **Inject 3** | **12:00** | **Unauthorized Network Device** – Network monitoring shows a new MAC address (AA:BB:CC:DD:EE:FF) connected to the core router. Port scan activity detected on ports 21, 22, 80, 443. | • Router logs indicating new device on port Gig0/1.  <br>• ARP table entry for the unknown MAC.  <br>• Traffic flow report showing outbound traffic from the device to IP 203.0.113.45. | • Identify the device (spoofed or rogue).  <br>• Are there any VLAN segmentation breaches?  <br>• Should we quarantine the port or disable the device? |\n| **Inject 4** | **14:00** | **Ransomware on Storage** – Backup system alerts that a nightly snapshot failed. On investigation, multiple files on the SAN show a new extension `.locked`. The backup job logs a 100 % failure rate. | • File integrity logs: list of encrypted files, hash changes.  <br>• Ransom note displayed on a random workstation.  <br>• Ransom demand: “Pay 5 BTC within 48 hrs to decrypt”. | • Confirm scope of encryption (is it isolated or widespread).  <br>• Evaluate backup integrity and restoration options.  <br>• Decide whether to pay or pursue legal/communication avenues. |\n| **Inject 5** | **16:00** | **External Data Breach Notice** – CFO receives an email from a former employee’s compromised account: “Your internal database has been accessed. We have copies of all client PII.” The email includes a link to a download of a data dump (10 GB). | • Email header details (From, To, IP).  <br>• Link to a file-sharing service (malicious URL).  <br>• Notification that the internal firewall blocked the connection but logs show the IP. | • Determine if data exfiltration occurred.  <br>• Notify legal and PR teams.  <br>• Initiate incident response escalation and client notification plan. |\n\n---\n\n### 4. Discussion Questions\n\n1. **Detection & Initial Response**\n   - Which monitoring tools should have detected the early signs of compromise (web traffic spike, unauthorized device) earlier?  \n   - What are the pros and cons of hard‑blocking the source IP versus throttling/ rate‑limiting?\n\n2. **Containment & Isolation**\n   - How should we prioritize isolating the compromised maintenance machine versus shutting down the entire maintenance VLAN?  \n   - What network segmentation policies could prevent a rogue device from reaching core switches?\n\n3. **Investigation & Attribution**\n   - What indicators (IP reputation, domain age, command‑and‑control signatures) would help attribute the attack to a known threat actor?  \n   - Should we involve external threat intelligence feeds at this stage?\n\n4. **Recovery & Restoration**\n   - How do we assess the integrity of backups before restoring from them?  \n   - What procedures should be followed to avoid restoring encrypted or compromised data?\n\n5. **Legal, Regulatory & Communication**\n   - Under which data‑breach notification laws (e.g., GDPR, CCPA) must we notify clients and regulators?  \n   - What internal/external communication strategy should we employ to mitigate reputational damage?\n\n6. **Post‑Incident Lessons & Improvements**\n   - What gaps in our current security controls were exposed by this exercise?  \n   - How can we formalize a ransomware response playbook and integrate it into our annual SOC playbook review?\n\n7. **Financial & Vendor Considerations**\n   - What criteria should we use to decide whether to pay a ransom?  \n   - How do we assess the legitimacy of firmware update requests from third‑party vendors?\n\n8. **Operational Continuity**\n   - How can we maintain service availability for critical web services while containment and recovery are underway?  \n   - What failover or cloud‑based options exist for our SAN in a crisis?\n\n9. **Cyber‑Insurance & Claim Process**\n   - What information must we gather to file a cyber‑insurance claim promptly?  \n   - Are there any exclusions we should be aware of for ransomware incidents?\n\n10. **Training & Awareness**\n    - How can we incorporate lessons learned into employee training programs, particularly for those handling maintenance machines?  \n    - What phishing simulation metrics should we track post‑exercise to gauge improvement?\n\n---\n\n### 5. Suggested Exercise Duration & Logistics\n\n- **Total Time**: 3–4 hours (including debrief).  \n- **Participants**: SOC analysts, network engineers, system administrators, legal counsel, PR, executive leadership.  \n- **Facilitator Role**: Introduce each inject, provide materials, monitor discussion, record decisions.  \n- **Debrief Focus**: Decision points, gaps identified, action items, and timeline for implementing improvements.\n\n---\n\n**End of Scenario**",
+    "simulation": "## Incident Simulation Scenario – ThreeBlindArchitects  \n*(Technology Sector – Web Services & Internal Infrastructure)*  \n\n---\n\n### 1. Incident Overview\n| Item | Description |\n|------|-------------|\n| **Incident Type** | Advanced Persistent Threat (APT) + Ransomware & Data Exfiltration |\n| **Threat Actor** | “Black Orchid” – a well‑known threat group targeting architectural firms for proprietary designs and intellectual property. |\n| **Primary Motivation** | 1) Leak architectural drawings to competitors. 2) Ransom for full access to confidential CAD files. |\n| **Detection Medium** | SIEM alerts, user reports, and an internal honeypot that captured a malicious payload. |\n| **Scope** | Web servers, local maintenance machines (DevOps & Support), core network infrastructure, and storage arrays. |\n\n---\n\n### 2. Attack Timeline (24‑hour window)\n\n| Time (UTC) | Activity | Notes |\n|------------|----------|-------|\n| **00:00** | **Initial Compromise** – Phishing email with macro‑enabled DOCX delivers a malicious Office payload. | Recipient: Senior Architect (user = `jdoe`). |\n| **00:12** | **Execution on Endpoint** – Macro installs a PowerShell script that downloads a backdoor from `malicious.com`. | PowerShell runs silently, creates `WinRM.exe` service. |\n| **00:18** | **C2 Command & Control** – The backdoor contacts `185.23.67.101:4444`. | C2 uses custom TLS‑encrypted protocol. |\n| **00:30** | **Privilege Escalation** – Exploit “Zero‑Day Credential Dumping” (`CVE‑2024‑XXXXX`) to extract domain admin credentials. | Credentials stored in encrypted registry hive. |\n| **01:00** | **Lateral Movement** – Using stolen creds, attacker logs into Web server cluster (`web01`, `web02`). | Executes a scheduled task to install reverse shell. |\n| **01:15** | **Data Access** – Attacker copies CAD files (`*.dwg`, `*.pdf`) to an internal staging folder on `web01`. |\n| **01:45** | **Ransomware Deployment** – `cryptor.exe` is dropped onto `web01` and `web02`. | Targets `\\\\storage.local\\shared\\CAD`. |\n| **02:00** | **Encryption & Ransom Note** – All files in `\\\\storage.local\\shared\\CAD` are encrypted. Ransom note placed in `C:\\ransom.txt`. |\n| **02:15** | **Exfiltration Phase 1** – Small subset of key drawings exfiltrated via HTTP POST to `data.exfil.com`. |\n| **03:00** | **Exfiltration Phase 2** – Large batch of design files pushed via SFTP to attacker’s staging server (IP 202.48.3.77). |\n| **04:00** | **Internal Recon** – Attacker maps network using Nmap from compromised `web01`. |\n| **04:30** | **Persistence** – Adds `web01` to scheduled tasks list; creates hidden service on `devops01`. |\n| **05:00** | **Backup Tampering** – Modifies `bkp_schedule` on Storage array to delete latest full backup snapshot. |\n| **05:30** | **Deception** – Generates benign logs to cover traces, then initiates “clean‑up” scripts on `web02`. |\n| **06:00** | **Alert Received** – SIEM flags anomalous outbound traffic from `web01` to unknown IP. |\n| **06:15** | **IR Team Mobilized** – Incident Commander (IC) convenes playbook. |\n\n---\n\n### 3. Affected Systems\n| System | Role | Status (post‑attack) |\n|--------|------|----------------------|\n| **Web01 / Web02** | Public‑facing architecture portfolio & client portal | Compromised, ransomware active |\n| **DevOps01** | Local maintenance & build automation | Lateral foothold, hidden service |\n| **Support01** | Local maintenance machine for field technicians | Compromised, scheduled task created |\n| **Router01 / Switch01** | Core network infrastructure | Normal, but infected traffic observed |\n| **Storage Array (NAS01)** | Central file store (`\\\\storage.local\\shared`) | Encrypted CAD files, backup snapshot deleted |\n| **Backup Server (BKP01)** | Off‑site backup | Snapshot deletion flagged |\n\n---\n\n### 4. Indicators of Compromise (IoCs)\n\n| Category | IoC | Description |\n|----------|-----|-------------|\n| **Malicious Domains** | `malicious.com` | C2 domain used by the backdoor. |\n| **Malicious IPs** | `185.23.67.101` (C2) | Outbound TLS to port 4444. |\n| | `202.48.3.77` (attacker’s SFTP) | Large file uploads. |\n| **File Hashes** | SHA‑256: `3b2d8e…` (cryptor.exe) | Ransomware binary. |\n| | SHA‑256: `9f6c1a…` (PowerShell script) | Initial payload. |\n| **Registry Keys** | `HKLM\\Software\\WinRM` | Custom service created by backdoor. |\n| | `HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run` | Persistence task on `web01`. |\n| **Process Names** | `WinRM.exe`, `cryptor.exe`, `ransom.txt` | Malicious processes. |\n| **Network Patterns** | 5 GB of outbound traffic to port 22 (SFTP) within 24 h | Exfiltration. |\n| | > 10 HTTP POSTs to `data.exfil.com` | Small data exfil. |\n| **User Accounts** | `jdoe`, `admin`, `svc_web` | Compromised credentials. |\n| **Backup Anomalies** | Deletion of snapshot `bkp-2026-04-13-00` | Backup tampering. |\n\n---\n\n### 5. Incident Response Plan – Phase‑by‑Phase Actions\n\n| Phase | Objective | Expected Actions (IR Team) |\n|-------|-----------|----------------------------|\n| **5.1 Preparation** | Ensure playbook, contacts, and tools are ready. | • Review IR playbook.<br>• Verify forensic imaging tools.<br>• Confirm communication channels (internal & external). |\n| **5.2 Identification** | Detect, classify, and confirm the incident. | • SIEM alert triage.<br>• Check event logs on `web01`, `web02`, `devops01`.<br>• Validate IoCs (domain, IP, hashes).<br>• Notify stakeholders (CISO, legal, PR). |\n| **5.3 Containment** | Stop further spread and preserve evidence. | • Disable network access for `web01`, `web02` (apply ACL on Router01).<br>• Isolate compromised endpoints (PowerShell remoting blocked).<br>• Remove malicious scheduled tasks & services.<br>• Snapshot disk images for forensic analysis. |\n| **5.4 Eradication** | Remove threat artifacts. | • Delete `cryptor.exe`, `WinRM.exe`, malicious registry keys.<br>• Restore services to pre‑compromise state.<br>• Apply latest OS and application patches (especially CVE‑2024‑XXXXX).<br>• Reset compromised credentials; enforce MFA. |\n| **5.5 Recovery** | Return systems to production safely. | • Decrypt unaffected files (if backup available).<br>• Deploy latest backups to `NAS01` (restore last good snapshot).<br>• Re‑image compromised hosts and rebuild from known good images.<br>• Validate integrity of restored data (checksum comparison). |\n| **5.6 Lessons Learned** | Capture insights and improve defenses. | • Conduct a post‑mortem with all stakeholders.<br>• Update playbooks: include new IoCs, detection rules, and mitigation steps.<br>• Run a red‑team/blue‑team drill based on this scenario.<br>• Issue mandatory security training (phishing, credential hygiene). |\n\n---\n\n### 6. Disaster Recovery (DR) Steps\n\n1. **Failover to Secondary Web Farm**  \n   - Route external DNS to secondary cluster (`web02‑backup`).  \n   - Verify SSL certificates and load balancer health checks.  \n\n2. **Backup Restoration**  \n   - Retrieve last clean snapshot (`bkp-2026-04-13-00`) from off‑site storage.  \n   - Restore CAD files to `\\\\storage.local\\shared\\CAD`.  \n   - Validate checksum of all critical files.  \n\n3. **Data Validation & Integrity Checks**  \n   - Run `checksum` tool on all CAD files.  \n   - Confirm that no encrypted files remain.  \n\n4. **Re‑integration**  \n   - Re‑enable compromised endpoints after clean‑image.  \n   - Apply network segmentation changes (e.g., separate DevOps VLAN).  \n\n5. **Business Continuity**  \n   - Ensure clients have access to updated portfolios via temporary CDN.  \n   - Offer client notification and support hotline for any data concerns.  \n\n---\n\n### 7. Key Take‑aways & Next Steps\n\n| Item | Action |\n|------|--------|\n| **Zero‑Day CVE Exploit** | Patch management policy review – implement “Just‑in‑Time” patching. |\n| **Phishing Delivery** | Enhance user awareness training; enable attachment sandboxing. |\n| **Backdoor Persistence** | Deploy host‑based intrusion detection and process whitelisting. |\n| **Backup Tampering** | Enforce immutable backup snapshots; audit backup logs daily. |\n| **Data Exfiltration** | Deploy data‑loss prevention (DLP) for CAD file types. |\n\n---\n\n**Prepared by:**  \nCybersecurity Incident Response Team – ThreeBlindArchitects  \n**Date:** 2026‑04‑14 10:00 UTC  \n\n---"
+  }
+}
