@@ -1,1 +1,67 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+wheels/
+*.whl
+MANIFEST
 
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.log.bak
+nosetests.xml
+
+# ── Traffic & capture files ───────────────────────────────────────────────────
+*.pcap
+*.pcapng
+*.cap
+*.dmp
+
+# ── Output / report files ─────────────────────────────────────────────────────
+*.html
+*.csv
+iocs.json
+report.*
+
+# ── Secrets & credentials ─────────────────────────────────────────────────────
+.env
+.env.*
+secrets.py
+config.local.py
+*.key
+*.pem
+*.crt
+
+# ── OS clutter ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.bak
+*.tmp
