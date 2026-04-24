@@ -1,4 +1,5 @@
  # The Blind Architects Project
+ # Malware Analysis Tool
 
 ## Team Members
 - Caleb Meister
