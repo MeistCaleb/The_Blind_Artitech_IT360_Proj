@@ -39,58 +39,48 @@ python3 --version
  
 ### Step 1 — Clone the repository
  
-```bash
-git clone https://github.com/your-username/netsentinel.git
-```
+
+git clone https://github.com/MeistCaleb/The_Blind_Artitech_IT360_Proj.git
+
  
 ### Step 2 — Enter the project folder
  
-```bash
-cd netsentinel
-```
+cd The_Blind_Artitech_Proj.git
+
  
 ### Step 3 — Verify the top-level files are present
  
-```bash
 ls
-```
  
 You should see:
  
-```
 main.py   core/   intel/   output/   tests/   sample_traffic.log   README.md
-```
  
 ### Step 4 — Verify the core subfolders
  
-```bash
 ls core/
-```
  
 You should see:
  
-```
 __init__.py   analyzer.py   models.py   pcap_reader.py   detectors/
-```
  
-```bash
 ls core/detectors/
-```
  
 You should see:
  
-```
 __init__.py   base.py   ip_detector.py   domain_detector.py   port_detector.py
 dns_detector.py   http_detector.py   payload_detector.py
-```
  
 > If any files or folders are missing, re-clone the repository and check again.
  
-### Step 5 — No install needed. You are ready to run the tool.
+### Step 5 — Run the Tool
 
 
-# Extra Options and Definitions
+# Options and Definitions
 ## All Command Options
+
+| Base Scan |
+python3 main.py filename
  
 | Option | Description |
 |--------|-------------|
