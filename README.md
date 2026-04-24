@@ -86,3 +86,30 @@ dns_detector.py   http_detector.py   payload_detector.py
 > If any files or folders are missing, re-clone the repository and check again.
  
 ### Step 5 — No install needed. You are ready to run the tool.
+
+
+# Extra Options and Definitions
+## All Command Options
+ 
+| Option | Description |
+|--------|-------------|
+| `logfile` | **(Required)** Path to the log or PCAP file to analyze |
+| `--severity` | Filter by severity. Choices: `critical` `high` `medium` `low`. Multiple values allowed |
+| `--format` | Output format. Choices: `terminal` `json` `html` `csv`. Default is `terminal` |
+| `--output` / `-o` | Save the report to a file instead of printing to the terminal |
+| `--no-color` | Disable colored terminal output |
+| `--quiet` / `-q` | Hide the summary header, show only the findings list |
+| `--api-url` | Override the default AI API base URL |
+| `--api-key` | Override the default AI API key |
+ 
+---
+ 
+## Severity Levels
+ 
+| Level | Meaning |
+|-------|---------|
+| **CRITICAL** | Known malicious IOC, active exploit, or confirmed C2 communication |
+| **HIGH** | Strong indicator of compromise or offensive tool detected |
+| **MEDIUM** | Anomalous pattern that warrants investigation |
+| **LOW** | Informational — verify whether this traffic is expected |
+ 
