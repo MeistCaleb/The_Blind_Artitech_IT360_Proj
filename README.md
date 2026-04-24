@@ -39,32 +39,39 @@ python3 --version
  
 ### Step 1 — Clone the repository
  
-
+```bash
 git clone https://github.com/MeistCaleb/The_Blind_Artitech_IT360_Proj.git
-
+```
  
 ### Step 2 — Enter the project folder
- 
-cd The_Blind_Artitech_Proj.git
 
+```bash
+cd The_Blind_Artitech_Proj.git
+```
  
 ### Step 3 — Verify the top-level files are present
- 
+
+```bash
 ls
+```
  
 You should see:
  
 main.py   core/   intel/   output/   tests/   sample_traffic.log   README.md
  
 ### Step 4 — Verify the core subfolders
- 
+
+```bash
 ls core/
+```
  
 You should see:
  
 __init__.py   analyzer.py   models.py   pcap_reader.py   detectors/
- 
+
+```bash 
 ls core/detectors/
+```
  
 You should see:
  
@@ -75,12 +82,18 @@ dns_detector.py   http_detector.py   payload_detector.py
  
 ### Step 5 — Run the Tool
 
+```bash
+python3 main.py filename
+```
+```bash
+python3 main.py filename --severity critical --o
+```
+```bash
+python3 main.py filename --severity critical high --q --no-color --format json
+```
 
 # Options and Definitions
 ## All Command Options
-
-| Base Scan |
-python3 main.py filename
  
 | Option | Description |
 |--------|-------------|
