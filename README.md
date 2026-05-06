@@ -6,6 +6,8 @@
 - Nathan Sigulas
 - Campbell Russo
 
+Video walkthrough in /docs/IT360.txt
+
 ## What It Detects
  
 | Detector | What It Looks For |
